@@ -2,30 +2,20 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.presintation-title {
-  margin-bottom: 50px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-.presintation-list {
+.presintation__list {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
-.presentation-item {
+.presentation__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
-.presentation-box {
+.presentation__box {
   position: relative;
 }
-.presintation-paragraf {
+.presintation__paragraf {
   display: flex;
   position: absolute;
   width: 370px;

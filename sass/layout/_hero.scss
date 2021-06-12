@@ -1,4 +1,4 @@
-.baner {
+.hero {
   max-width: 1600px;
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -9,7 +9,13 @@
   margin: 0 auto;
 }
 
-.hero {
+.hero__conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -21,13 +27,7 @@
   color: var(--background-color);
 }
 
-.hero-conteiner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero-button {
+.hero__button {
   color: var(--background-color);
   background: var(--akcent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

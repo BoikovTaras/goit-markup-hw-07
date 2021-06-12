@@ -1,16 +1,16 @@
-.projects-list {
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
-.projects-list-item {
+.projects__list {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.projects-list-link {
+.projects__link {
   display: block;
 
   &:hover,
@@ -20,19 +20,19 @@
   }
 }
 
-.project-box {
+.project__box {
   position: relative;
   overflow: hidden;
 }
 
-.project-list-content {
+.project__content {
   padding: 20px 24px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   border-top: none;
   box-sizing: border-box;
 }
-.projects-list-title {
+.projects__title {
   margin-bottom: 4px;
   font-style: normal;
   font-weight: bold;
@@ -41,7 +41,7 @@
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
-.projects-list-paragraf {
+.projects__paragraf {
   color: var(--main-color);
   font-style: normal;
   font-weight: normal;

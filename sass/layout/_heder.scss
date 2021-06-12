@@ -2,6 +2,11 @@
   border-bottom: 1px solid #ececec;
 }
 
+.header__logo {
+  display: flex;
+  color: var(--title-color);
+}
+
 .header__conteiner {
   display: flex;
   justify-content: space-between;
@@ -83,7 +88,7 @@
   }
 }
 
-.current::after {
+.header__items_status_current::after {
   content: '';
   position: absolute;
   bottom: 0;
