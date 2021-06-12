@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.header-logo {
+.header__logo {
   display: flex;
   color: var(--title-color);
 }
@@ -17,6 +17,6 @@
   color: var(--background-color);
 }
 
-.logo-akcent {
+.logo__akcent {
   color: var(--akcent-color);
 }
